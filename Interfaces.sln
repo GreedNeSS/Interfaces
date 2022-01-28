@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceNameClash", "Inter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceHierarchy", "InterfaceHierarchy\InterfaceHierarchy.csproj", "{06EBDADA-F8F3-45B8-94E3-A85940A93884}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MIInterfaceHierarchy", "MIInterfaceHierarchy\MIInterfaceHierarchy.csproj", "{335032D1-4419-4264-B714-3D99CCB1B207}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomEnumerator", "CustomEnumerator\CustomEnumerator.csproj", "{5ED6DA01-F221-440F-8E64-28C17DA252B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{06EBDADA-F8F3-45B8-94E3-A85940A93884}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06EBDADA-F8F3-45B8-94E3-A85940A93884}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06EBDADA-F8F3-45B8-94E3-A85940A93884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{335032D1-4419-4264-B714-3D99CCB1B207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{335032D1-4419-4264-B714-3D99CCB1B207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{335032D1-4419-4264-B714-3D99CCB1B207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{335032D1-4419-4264-B714-3D99CCB1B207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ED6DA01-F221-440F-8E64-28C17DA252B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED6DA01-F221-440F-8E64-28C17DA252B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED6DA01-F221-440F-8E64-28C17DA252B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED6DA01-F221-440F-8E64-28C17DA252B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
