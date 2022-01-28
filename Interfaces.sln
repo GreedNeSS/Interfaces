@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICloneableExample", "ICloneableExample\ICloneableExample.csproj", "{514AC8C8-C7A0-4191-A169-0A387FFCA0F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICloneableExample", "ICloneableExample\ICloneableExample.csproj", "{514AC8C8-C7A0-4191-A169-0A387FFCA0F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomInterface", "CustomInterface\CustomInterface.csproj", "{66AEDD64-E38F-4901-AB5C-013B376EE8FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomInterface", "CustomInterface\CustomInterface.csproj", "{66AEDD64-E38F-4901-AB5C-013B376EE8FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceNameClash", "InterfaceNameClash\InterfaceNameClash.csproj", "{A233C970-BB9C-4D82-A356-73C30ACA702C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceHierarchy", "InterfaceHierarchy\InterfaceHierarchy.csproj", "{06EBDADA-F8F3-45B8-94E3-A85940A93884}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{66AEDD64-E38F-4901-AB5C-013B376EE8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66AEDD64-E38F-4901-AB5C-013B376EE8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66AEDD64-E38F-4901-AB5C-013B376EE8FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A233C970-BB9C-4D82-A356-73C30ACA702C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A233C970-BB9C-4D82-A356-73C30ACA702C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A233C970-BB9C-4D82-A356-73C30ACA702C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A233C970-BB9C-4D82-A356-73C30ACA702C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06EBDADA-F8F3-45B8-94E3-A85940A93884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06EBDADA-F8F3-45B8-94E3-A85940A93884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06EBDADA-F8F3-45B8-94E3-A85940A93884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06EBDADA-F8F3-45B8-94E3-A85940A93884}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
