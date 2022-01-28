@@ -19,7 +19,11 @@ namespace CustomEnumerator
             cars[3] = new("Reggi", 80);
         }
 
-        public IEnumerator GetEnumerator() => new CarEnumerator(cars);
+        public IEnumerator GetEnumerator()
+        {
+            Console.WriteLine("GetEnumerator");
+            return new CarEnumerator(cars);
+        }
     }
 
     class CarEnumerator : IEnumerator
