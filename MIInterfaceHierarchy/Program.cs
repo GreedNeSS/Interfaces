@@ -10,6 +10,7 @@ namespace MIInterfaceHierarchy
             Square square = new();
 
             rectangle.Draw();
+
             ((IDrawable)square).Draw();
             ((IPrintable)square).Draw();
         }
