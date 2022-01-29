@@ -7,17 +7,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICloneableExample", "IClone
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomInterface", "CustomInterface\CustomInterface.csproj", "{66AEDD64-E38F-4901-AB5C-013B376EE8FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceNameClash", "InterfaceNameClash\InterfaceNameClash.csproj", "{A233C970-BB9C-4D82-A356-73C30ACA702C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceNameClash", "InterfaceNameClash\InterfaceNameClash.csproj", "{A233C970-BB9C-4D82-A356-73C30ACA702C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceHierarchy", "InterfaceHierarchy\InterfaceHierarchy.csproj", "{06EBDADA-F8F3-45B8-94E3-A85940A93884}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceHierarchy", "InterfaceHierarchy\InterfaceHierarchy.csproj", "{06EBDADA-F8F3-45B8-94E3-A85940A93884}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MIInterfaceHierarchy", "MIInterfaceHierarchy\MIInterfaceHierarchy.csproj", "{335032D1-4419-4264-B714-3D99CCB1B207}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MIInterfaceHierarchy", "MIInterfaceHierarchy\MIInterfaceHierarchy.csproj", "{335032D1-4419-4264-B714-3D99CCB1B207}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomEnumerator", "CustomEnumerator\CustomEnumerator.csproj", "{5ED6DA01-F221-440F-8E64-28C17DA252B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomEnumerator", "CustomEnumerator\CustomEnumerator.csproj", "{5ED6DA01-F221-440F-8E64-28C17DA252B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomEnumeratorWithYield", "CustomEnumeratorWithYield\CustomEnumeratorWithYield.csproj", "{1D6D7C55-1DDC-40D4-B9F0-52214056E919}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomEnumeratorWithYield", "CustomEnumeratorWithYield\CustomEnumeratorWithYield.csproj", "{1D6D7C55-1DDC-40D4-B9F0-52214056E919}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloneablePoint", "CloneablePoint\CloneablePoint.csproj", "{F5AACD0E-C238-48A0-A991-3A349EFCBDF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloneablePoint", "CloneablePoint\CloneablePoint.csproj", "{F5AACD0E-C238-48A0-A991-3A349EFCBDF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparableCar", "ComparableCar\ComparableCar.csproj", "{82F5F910-0E1E-405E-8F4D-FA97A68AF8AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{F5AACD0E-C238-48A0-A991-3A349EFCBDF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5AACD0E-C238-48A0-A991-3A349EFCBDF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5AACD0E-C238-48A0-A991-3A349EFCBDF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82F5F910-0E1E-405E-8F4D-FA97A68AF8AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F5F910-0E1E-405E-8F4D-FA97A68AF8AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F5F910-0E1E-405E-8F4D-FA97A68AF8AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F5F910-0E1E-405E-8F4D-FA97A68AF8AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
